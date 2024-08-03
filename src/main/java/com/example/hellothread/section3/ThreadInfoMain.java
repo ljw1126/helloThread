@@ -1,9 +1,8 @@
 package com.example.hellothread.section3;
 
 import com.example.hellothread.section2.HelloThread;
-import com.example.hellothread.section2.util.MyLogger;
 
-import static com.example.hellothread.section2.util.MyLogger.*;
+import static com.example.hellothread.util.MyLogger.*;
 
 public class ThreadInfoMain {
     public static void main(String[] args) {

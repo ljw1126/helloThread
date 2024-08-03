@@ -1,6 +1,6 @@
 package com.example.hellothread.section3;
 
-import static com.example.hellothread.section2.util.MyLogger.log;
+import static com.example.hellothread.util.MyLogger.log;
 
 public class ThreadStateMain {
     public static void main(String[] args) throws InterruptedException {

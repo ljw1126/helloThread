@@ -1,7 +1,5 @@
 package com.example.hellothread.util;
 
-import com.example.hellothread.section2.util.MyLogger;
-
 public abstract class ThreadUtils {
 
     public static void sleep(long millis) {
