@@ -1,6 +1,6 @@
-package com.example.hellothread;
+package com.example.hellothread.section2;
 
-import com.example.hellothread.util.MyLogger;
+import com.example.hellothread.section2.util.MyLogger;
 
 public class StartTest4Main {
     public static void main(String[] args) {

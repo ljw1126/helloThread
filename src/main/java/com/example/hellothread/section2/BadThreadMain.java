@@ -1,4 +1,4 @@
-package com.example.hellothread;
+package com.example.hellothread.section2;
 
 public class BadThreadMain {
     public static void main(String[] args) {

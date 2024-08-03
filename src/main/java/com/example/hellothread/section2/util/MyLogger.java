@@ -1,4 +1,4 @@
-package com.example.hellothread.util;
+package com.example.hellothread.section2.util;
 
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;

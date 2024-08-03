@@ -1,6 +1,6 @@
-package com.example.hellothread.util;
+package com.example.hellothread.section2.util;
 
-import static com.example.hellothread.util.MyLogger.*;
+import static com.example.hellothread.section2.util.MyLogger.*;
 
 public class MyLoggerMain {
     public static void main(String[] args) {

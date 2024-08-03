@@ -1,8 +1,6 @@
-package com.example.hellothread;
+package com.example.hellothread.section2;
 
-import com.example.hellothread.util.MyLogger;
-
-import static com.example.hellothread.util.MyLogger.*;
+import static com.example.hellothread.section2.util.MyLogger.*;
 
 public class ManyThreadMainV1 {
     public static void main(String[] args) {
