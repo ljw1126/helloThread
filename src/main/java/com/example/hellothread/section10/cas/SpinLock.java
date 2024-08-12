@@ -3,7 +3,6 @@ package com.example.hellothread.section10.cas;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 import static com.example.hellothread.util.MyLogger.log;
-import static com.example.hellothread.util.ThreadUtils.sleep;
 
 public class SpinLock {
     private final AtomicBoolean lock = new AtomicBoolean(false);

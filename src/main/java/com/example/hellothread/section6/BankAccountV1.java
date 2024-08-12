@@ -1,10 +1,7 @@
 package com.example.hellothread.section6;
 
-import com.example.hellothread.util.MyLogger;
-import com.example.hellothread.util.ThreadUtils;
-
-import static com.example.hellothread.util.MyLogger.*;
-import static com.example.hellothread.util.ThreadUtils.*;
+import static com.example.hellothread.util.MyLogger.log;
+import static com.example.hellothread.util.ThreadUtils.sleep;
 
 public class BankAccountV1 implements BankAccount{
 

@@ -1,8 +1,6 @@
 package com.example.hellothread.section6.test;
 
-import com.example.hellothread.util.MyLogger;
-
-import static com.example.hellothread.util.MyLogger.*;
+import static com.example.hellothread.util.MyLogger.log;
 
 public class SyncTest2Main {
     public static void main(String[] args) throws InterruptedException {

@@ -1,14 +1,7 @@
 package com.example.hellothread.section8;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
-
-import static com.example.hellothread.util.MyLogger.log;
 
 public class BoundedQueueV6_1 implements BoundedQueue {
 

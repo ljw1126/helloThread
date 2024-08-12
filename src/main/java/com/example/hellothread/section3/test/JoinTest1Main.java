@@ -1,10 +1,7 @@
 package com.example.hellothread.section3.test;
 
-import com.example.hellothread.util.MyLogger;
-import com.example.hellothread.util.ThreadUtils;
-
-import static com.example.hellothread.util.MyLogger.*;
-import static com.example.hellothread.util.ThreadUtils.*;
+import static com.example.hellothread.util.MyLogger.log;
+import static com.example.hellothread.util.ThreadUtils.sleep;
 
 public class JoinTest1Main {
     public static void main(String[] args) throws InterruptedException {

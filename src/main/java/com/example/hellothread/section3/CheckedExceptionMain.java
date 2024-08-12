@@ -1,8 +1,6 @@
 package com.example.hellothread.section3;
 
-import com.example.hellothread.util.ThreadUtils;
-
-import static com.example.hellothread.util.ThreadUtils.*;
+import static com.example.hellothread.util.ThreadUtils.sleep;
 
 public class CheckedExceptionMain {
     public static void main(String[] args) {

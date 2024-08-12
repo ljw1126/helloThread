@@ -1,8 +1,6 @@
 package com.example.hellothread.section10.cas;
 
-import com.example.hellothread.util.MyLogger;
-
-import static com.example.hellothread.util.MyLogger.*;
+import static com.example.hellothread.util.MyLogger.log;
 import static com.example.hellothread.util.ThreadUtils.sleep;
 
 public class SpinLockBad {

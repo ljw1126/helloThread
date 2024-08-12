@@ -4,7 +4,6 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 import static com.example.hellothread.util.MyLogger.log;
-import static com.example.hellothread.util.ThreadUtils.sleep;
 
 public class BoundedQueueV3 implements BoundedQueue {
     private final Deque<String> queue = new ArrayDeque<>();

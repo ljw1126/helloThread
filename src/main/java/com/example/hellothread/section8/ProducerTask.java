@@ -1,8 +1,6 @@
 package com.example.hellothread.section8;
 
-import com.example.hellothread.util.MyLogger;
-
-import static com.example.hellothread.util.MyLogger.*;
+import static com.example.hellothread.util.MyLogger.log;
 
 public class ProducerTask implements Runnable{
     private final BoundedQueue queue;

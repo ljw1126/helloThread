@@ -1,14 +1,11 @@
 package com.example.hellothread.section4.printer;
 
-import com.example.hellothread.util.MyLogger;
-import com.example.hellothread.util.ThreadUtils;
-
 import java.util.Queue;
 import java.util.Scanner;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-import static com.example.hellothread.util.MyLogger.*;
-import static com.example.hellothread.util.ThreadUtils.*;
+import static com.example.hellothread.util.MyLogger.log;
+import static com.example.hellothread.util.ThreadUtils.sleep;
 
 public class MyPrinterV1 {
     public static void main(String[] args) {

@@ -1,11 +1,11 @@
 package com.example.hellothread.section6;
 
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 import static com.example.hellothread.util.MyLogger.log;
 import static com.example.hellothread.util.ThreadUtils.sleep;
-import java.util.concurrent.TimeUnit;
 public class BankAccountV6 implements BankAccount{
 
     private int balance;

@@ -1,11 +1,9 @@
 package com.example.hellothread.section8;
 
-import com.example.hellothread.util.MyLogger;
-
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-import static com.example.hellothread.util.MyLogger.*;
+import static com.example.hellothread.util.MyLogger.log;
 import static com.example.hellothread.util.ThreadUtils.sleep;
 
 public class BoundedQueueV2 implements BoundedQueue {

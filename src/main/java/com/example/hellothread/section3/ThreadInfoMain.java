@@ -2,7 +2,7 @@ package com.example.hellothread.section3;
 
 import com.example.hellothread.section2.HelloThread;
 
-import static com.example.hellothread.util.MyLogger.*;
+import static com.example.hellothread.util.MyLogger.log;
 
 public class ThreadInfoMain {
     public static void main(String[] args) {

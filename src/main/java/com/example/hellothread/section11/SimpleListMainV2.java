@@ -1,8 +1,6 @@
 package com.example.hellothread.section11;
 
-import com.example.hellothread.util.MyLogger;
-
-import static com.example.hellothread.util.MyLogger.*;
+import static com.example.hellothread.util.MyLogger.log;
 
 public class SimpleListMainV2 {
     public static void main(String[] args) throws InterruptedException {

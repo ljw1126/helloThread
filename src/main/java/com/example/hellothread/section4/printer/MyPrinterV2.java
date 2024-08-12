@@ -5,7 +5,6 @@ import java.util.Scanner;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 import static com.example.hellothread.util.MyLogger.log;
-import static com.example.hellothread.util.ThreadUtils.sleep;
 
 public class MyPrinterV2 {
     public static void main(String[] args) {

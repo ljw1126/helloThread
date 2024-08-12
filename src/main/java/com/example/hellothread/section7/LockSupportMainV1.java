@@ -1,10 +1,8 @@
 package com.example.hellothread.section7;
 
-import com.example.hellothread.util.MyLogger;
-
 import java.util.concurrent.locks.LockSupport;
 
-import static com.example.hellothread.util.MyLogger.*;
+import static com.example.hellothread.util.MyLogger.log;
 import static com.example.hellothread.util.ThreadUtils.sleep;
 
 public class LockSupportMainV1 {

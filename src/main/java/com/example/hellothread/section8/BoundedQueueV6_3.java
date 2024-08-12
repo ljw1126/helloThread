@@ -1,12 +1,10 @@
 package com.example.hellothread.section8;
 
-import ch.qos.logback.core.util.TimeUtil;
-
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.TimeUnit;
 
 import static com.example.hellothread.util.MyLogger.log;
-import java.util.concurrent.TimeUnit;
 public class BoundedQueueV6_3 implements BoundedQueue {
 
     private BlockingQueue<String> queue;

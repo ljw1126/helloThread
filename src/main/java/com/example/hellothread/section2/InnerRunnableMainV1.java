@@ -1,6 +1,6 @@
 package com.example.hellothread.section2;
 
-import static com.example.hellothread.util.MyLogger.*;
+import static com.example.hellothread.util.MyLogger.log;
 
 public class InnerRunnableMainV1 {
     public static void main(String[] args) {
